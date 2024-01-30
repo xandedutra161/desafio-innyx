@@ -44,7 +44,7 @@ Certifique-se de ter o PHP, o Composer e o Laravel 10 corretamente instalados em
 
 Depois que todos os pré-requisitos estiverem funcionando corretamente, seguir o passo-a-passo abaixo:
 
-1. Clone o repositório `git clone https://github.com/seu-usuario/example-app.git`
+1. Clone o repositório `git clone https://github.com/xandedutra161/example-app.git`
 2. No seu terminal execute `cd example-app` para entrar na pasta do projeto.
 3. Configurar arquivo `.env`
    ```bash
