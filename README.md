@@ -57,7 +57,7 @@ Depois que todos os pré-requisitos estiverem funcionando corretamente, seguir o
 4. Instale as dependencias do projeto.
     ```bash
     composer install
-    artisan key:generate
+    php artisan key:generate
     php artisan migrate
 5. Rode para finalizar as configurações, rode os dois comandos em processos diferentes.
     ```bash
