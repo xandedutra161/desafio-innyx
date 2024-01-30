@@ -59,6 +59,7 @@ Depois que todos os pré-requisitos estiverem funcionando corretamente, seguir o
     composer install
     php artisan key:generate
     php artisan migrate
+    npm install --save-dev vite
 5. Rode para finalizar as configurações, rode os dois comandos em processos diferentes.
     ```bash
     php artisan serve
