@@ -46,7 +46,8 @@ Depois que todos os pré-requisitos estiverem funcionando corretamente, seguir o
 
 1. Clone o repositório `git clone https://github.com/xandedutra161/desafio-innyx.git`
 2. No seu terminal execute `cd desafio-innyx` para entrar na pasta do projeto.
-3. Configurar arquivo `.env`
+3. Copie o arquivo ".env.example" para ".env" `cp .env.example .env`
+4. Configurar arquivo `.env`
    ```bash
     DB_CONNECTION=mysql
     DB_HOST=localhost
@@ -54,13 +55,13 @@ Depois que todos os pré-requisitos estiverem funcionando corretamente, seguir o
     DB_DATABASE=nome-do-seu-banco-aqui
     DB_USERNAME=nome-de-usuario-do-banco
     DB_PASSWORD=senha-do-usuario-do-banco
-4. Instale as dependencias do projeto.
+5. Instale as dependencias do projeto.
     ```bash
     composer install
     php artisan key:generate
     php artisan migrate
     npm install --save-dev vite
-5. E para finalizar, rode os dois comandos em processos diferentes.
+6. E para finalizar, rode os dois comandos em processos diferentes.
     ```bash
     php artisan serve
     npm run dev
